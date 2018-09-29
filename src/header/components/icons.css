@@ -1,0 +1,9 @@
+.header-content .icons{
+			font-size: 24px;
+			display: flex;
+			white-space: nowrap;
+			width: auto;
+		}
+		.header-content .icons svg{
+			padding-left:24px; 
+		}

@@ -1,0 +1,17 @@
+.header-content .form{
+			display: flex;
+    		align-items: center;
+    		width: 30%;
+    		height: 28px;
+			position:relative;
+		}
+		.header-content .form input {
+			width: 100%;
+			height: inherit;
+			font-size: 16px;
+			padding-left: 5px; 
+			outline: 0;
+			text-align: center;
+			border-radius: 4px;
+			border:1px solid #e3e3e3;
+		}

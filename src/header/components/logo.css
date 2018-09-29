@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.header-content .logo{
+			width: auto;
+			font-family: 'Pacifico', cursive;
+			align-items: center;
+			font-size: 30px;
+		}
+		.header-content .logo svg{
+			font-size: 35px;
+			padding-right: 18px;
+			border-right:1px solid #262626; 
+		}
+		.header-content .logo span{
+			margin-left: 18px;
+		}
