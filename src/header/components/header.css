@@ -4,6 +4,9 @@
 			border-bottom:1px solid #e3e3e3;
 			background: white;
 			justify-content: center;
+			position:fixed;
+			left:0;
+			right: 0;
 		}
 .header-content{
 			display:flex;
