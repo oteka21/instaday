@@ -1,0 +1,13 @@
+.card .card-content{
+	width: inherit;
+}
+.card .card-content img{
+	vertical-align: bottom;
+	object-fit: cover;
+	width: 100%;
+}
+.image{
+	vertical-align: bottom;
+	object-fit: cover;
+	width: 100%;
+}

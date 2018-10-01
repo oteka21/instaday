@@ -15,3 +15,17 @@
 		.header-content .logo span{
 			margin-left: 18px;
 		}
+@media screen and (max-width: 565px){
+
+	.header-content .icons{
+				margin-right: 12px;
+	}
+	.header-content .logo{
+				font-size: 25px;
+	}
+	.header-content .logo i{
+				font-size: 27px;
+				padding-right: 15px;
+				/*border-right:1px solid #262626; */
+	}
+}

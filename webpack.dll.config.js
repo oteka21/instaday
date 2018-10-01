@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
 	mode: 'production',
 	entry: {
-		modules: ['react','react-dom']
+		modules: ['react','react-dom','@fortawesome/react-fontawesome','@fortawesome/free-brands-svg-icons','@fortawesome/free-regular-svg-icons']
 	},
 	output:{
 		path: path.resolve(__dirname, 'dist'),

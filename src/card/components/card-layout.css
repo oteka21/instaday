@@ -1,0 +1,20 @@
+.card{
+			width: inherit;
+			border: 1px solid #e3e3e3;
+			margin-top: 50px;
+			background: #fff;
+			border-radius:2px;
+	}
+
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 640px){
+
+}
+@media screen and (max-width: 565px){
+	.card{
+		border:0;
+		background: #fafafa;
+	}
+}

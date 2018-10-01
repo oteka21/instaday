@@ -172,13 +172,6 @@ body{
 				border-right:1px solid #262626; 
 			}
 			.header-content .form{
-				display: flex;
-	    		align-items: center;
-	    		width: 30%;
-	    		height: 28px;
-				position:relative;
-			}
-			.header-content .form{
 				display:none;
 			}
 		}

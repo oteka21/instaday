@@ -13,3 +13,17 @@
 			flex-direction: row;
 			width: 70%;
 		}
+
+@media screen and (max-width: 1000px){
+	.header-content{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 640px){
+			
+}
+@media screen and (max-width: 565px){
+	.header-content{
+		padding: 10px 10px;
+	}
+}

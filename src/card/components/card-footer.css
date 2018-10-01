@@ -1,0 +1,44 @@
+.card .card-content img{
+			vertical-align: bottom;
+			object-fit: cover;
+			width: 100%;
+		}
+		.card .card-footer{
+			padding: 0 15px 0 15px;
+			font-family: Helvetica;
+			font-weight: bold;
+		}
+		.card .card-footer .card-footer-icons{
+			margin-top:4px;
+			display: flex;
+			justify-content: space-between;
+			font-size: 25px;
+			font-weight: normal;
+		}
+		.card .card-footer .card-footer-icons .left-icons svg {
+			margin-right: 5px;
+		}
+		.card .card-footer .comment{
+			padding: 20px 0 20px;
+			border-top: 1px solid #e3e3e3;
+			margin-top: 10px;
+		}
+		.card .card-footer form input[type=text]{
+			border:0;
+			width: 100%;
+			outline: 0;
+			resize: none;
+			font-size: 13px;
+		}
+
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 640px){
+
+}
+@media screen and (max-width: 565px){
+	.card .card-footer form input {
+		background: #fafafa;
+	}
+}

@@ -7,3 +7,9 @@
 		.header-content .icons svg{
 			padding-left:24px; 
 		}
+
+@media screen and (max-width: 565px){
+	.header-content .icons{
+				margin-right: 12px;
+	}
+}
