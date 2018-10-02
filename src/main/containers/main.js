@@ -15,13 +15,11 @@ class Main extends Component{
 			})
 	}
 	render(){
-		// console.log(this.props.users);
 		return (
 			<MainLayout>
 				<Timeline>
 				{
 					this.state.data.map((el)=>{
-						// console.log(el.results[0]);
 						return <Card userData={el.results[0]} />
 					})	
 				}
