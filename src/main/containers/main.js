@@ -3,24 +3,22 @@ import MainLayout from '../components/main-layout.js';
 import Timeline from '../../timeline/components/timeline.js';
 import Card from '../../card/containers/card.js';
 import Histories from '../../histories/containers/histories.js';
+import { connect } from 'react-redux';
+import { loadPost } from '../../redux/actions/index';
 
 class Main extends Component{
-	state = {
-		data: []
-	}
-	async componentDidMount(){
-			const users = await this.props.handleLoadData();
-			this.setState({
-				data: users
-			})
+	componentWillMount(){
+		for (let i = 0; i<=6; i++){
+			this.props.loadPost();
+		}
 	}
 	render(){
 		return (
 			<MainLayout>
 				<Timeline>
 				{
-					this.state.data.map((el)=>{
-						return <Card userData={el.results[0]} />
+					this.props.posts.map((el)=>{
+						return <Card post={el}/>
 					})	
 				}
 				</Timeline>
@@ -30,4 +28,8 @@ class Main extends Component{
 	}
 }
 
-export default Main;
+const mapStateToProps = (state,props) => {
+	return { posts: state.data.posts }
+}
+
+export default connect(mapStateToProps, { loadPost } )(Main);

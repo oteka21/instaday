@@ -1,14 +1,17 @@
-import { createStore } from 'redux';
+import { createStore,applyMiddleware } from 'redux';
+import reducer from './reducers/index';
+import thunk from 'redux-thunk';
+import logger from 'redux-logger';
 
-
-const initialState = {
-	data: "ola mi perro"
-}
 
 const store = createStore(
-	(state) => state,
-	initialState,
-	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+	reducer,
+	{},
+	applyMiddleware(
+		thunk,
+		logger
+		)
 )
+
 
 export default store;
