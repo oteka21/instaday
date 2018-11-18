@@ -1,3 +1,42 @@
+.histories-container{
+	grid-area: histories;
+	width: 100%;
+}
+
 .histories{
-	grid-area:'histories';
+	position: fixed;
+	width: 19%;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+	background: white;
+	height:auto;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+.histories-title{
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	justify-content: space-between;
+}
+.histories-title span{
+	color: #262626;
+}
+.histories-title h1{
+	margin: 0;
+	color: #999;
+}
+
+.histories-main{
+	height: 250px;
+	overflow: scroll;
+	padding: 15px;
+}
+
+
+@media screen and (max-width: 1000px){
+	.histories-container{
+	display:none;
+	}
 }

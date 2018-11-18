@@ -1,22 +1,20 @@
-.main{
+		.main{
 			display: flex;
 			justify-content: center;
 		}
 		.main-container{
-			width: 70%;
+			width: 60%;
 			display: grid;
-			grid-template-areas: 'timeline timeline  histories';
-			grid-column-gap: 30px;
+			grid-template-columns: 70% 27%;
+			grid-template-areas: 'timeline histories';
+			grid-column-gap: 3%;
 			margin-top:100px;
 		}
 
-
-	@media screen and (max-width: 1000px){
+		@media screen and (max-width: 1000px){
 			.main-container{
-				/*width: 70%;*/
-				/*display: grid;*/
-				grid-template-areas: 'timeline timeline timeline';
-				/*grid-column-gap: 30px;*/
+				grid-template-columns: 100%;
+				grid-template-areas: 'timeline';
 				margin-top:80px;
 			}
 		}

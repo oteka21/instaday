@@ -1,9 +1,9 @@
 .card{
 			width: inherit;
 			border: 1px solid #e3e3e3;
-			margin-top: 50px;
+			margin-bottom: 50px;
 			background: #fff;
-			border-radius:2px;
+			border-radius:3px;
 	}
 
 @media screen and (max-width: 1000px){

@@ -15,7 +15,7 @@ const CardFooter = (props) =>{
 								<FontAwesomeIcon icon={['fas', 'tag']} />
 							</div>
 						</div>
-						<span>{Math.floor(Math.random() * 1000) - 1 } me gusta</span>
+						<span>{props.likes} me gusta</span>
 						<div className="comment">
 							<form>
 								<input type="text" name="" placeholder="Agregar un comentario..." />

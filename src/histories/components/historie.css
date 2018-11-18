@@ -1,0 +1,14 @@
+.historie{
+	display:flex;
+	align-items: center;
+	padding-bottom: 8px;
+}
+.historie img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px rgb(211,28,80) solid;
+}
+.historie span{
+	margin-left: 5px;
+}

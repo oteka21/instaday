@@ -10,8 +10,8 @@ class Card extends Component{
 		return (
 				<CardLayout>
 					 <CardHeader username={this.props.post.login.username} picturesrc={this.props.post.picture.medium}/>
-					 <CardContent picture={this.props.post.post} />
-					 <CardFooter />
+					 <CardContent picture={this.props.post.post.picture} />
+					 <CardFooter likes={this.props.post.post.likes}/>
 				</CardLayout>
 			)
 		}
